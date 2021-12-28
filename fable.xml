@@ -706,7 +706,7 @@
       
     </agent>
     
-    <agent img="reset.png"     x="420" y="12"  width="64"  height="64" on-touch="_NEXT_PAGE" />
+    <agent img="reset_button.png"     x="420" y="12"  width="64"  height="64" on-touch="_GOTO_PAGE:1" />
   </page>
   
   <page background="florest.png" soundtrack="end_theme.wav">
@@ -732,6 +732,8 @@
            x="50" y="-300" font-size="25" width="450" on-trigger="end2" on-touch="_NEXT_PAGE">
       <end2 y="240"/>
       </agent>
+    
+    <agent img="reset_button.png"     x="420" y="12"  width="64"  height="64" on-touch="_GOTO_PAGE:1" />
   </page>
   
   <page background="florest.png" soundtrack="florest.wav">
@@ -1043,6 +1045,8 @@
            x="230" y="-300" on-trigger="end" on-touch="end2" font-size="25" width="500">
       <end y="250" />
       <end2 y="-300"/>
+    
+    <agent img="reset_button.png"     x="420" y="12"  width="64"  height="64" on-touch="_GOTO_PAGE:1" />
       
     </agent>
   </page>

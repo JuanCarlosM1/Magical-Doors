@@ -411,6 +411,9 @@
     <agent text="A porta os levou até um iglu em uma região montanhosa cheia de neve." 
            x="20" y="450" width="300" color="white" /> 
     
+    <agent img="Sign_3.png"      
+           x="394" y="162" width="64" height="64" on-touch="_GOTO_PAGE:24"/>
+    
   </page>
   
   <page background="snow.png"    soundtrack="snow.wav"> 
@@ -641,6 +644,9 @@
           x="420" y="-200" width="64" height="64" on-touch="_GOTO_PAGE:10" on-trigger="pa">
       <pa y="99" />
      </agent>
+    
+    <agent img="Sign_3.png"      
+           x="394" y="162" width="64" height="64" on-touch="_GOTO_PAGE:24"/>
 
     <agent text="Procure pela pá" 
            x="20" y="465" width="300" color="white"/>    
@@ -1037,6 +1043,29 @@
     <agent img="florest_ground_1.png" x="495" y="0" width="100" height="100"/>
     
     <agent text="Eles ficaram presos no deserto" 
+           x="50" y="250" font-size="25" width="500" on-touch="end">
+      <end y="-300"/>
+      </agent>
+      
+    <agent text="Fim!" 
+           x="230" y="-300" on-trigger="end" on-touch="end2" font-size="25" width="500">
+      <end y="250" />
+      <end2 y="-300"/>
+      
+    </agent>
+    
+    <agent img="reset_button.png"     x="420" y="12"  width="64"  height="64" on-touch="_GOTO_PAGE:1" />
+  </page>
+  
+  <page background="florest.png" soundtrack="end_theme_2.wav">
+    <agent img="florest_ground_1.png" x="0"   y="0" width="100" height="100"/> 
+    <agent img="florest_ground_1.png" x="99"  y="0" width="100" height="100"/> 
+    <agent img="florest_ground_1.png" x="198" y="0" width="100" height="100"/>
+    <agent img="florest_ground_1.png" x="297" y="0" width="100" height="100"/>
+    <agent img="florest_ground_1.png" x="396" y="0" width="100" height="100"/>
+    <agent img="florest_ground_1.png" x="495" y="0" width="100" height="100"/>
+    
+    <agent text="Eles ficaram vagando na neve." 
            x="50" y="250" font-size="25" width="500" on-touch="end">
       <end y="-300"/>
       </agent>

@@ -1045,10 +1045,10 @@
            x="230" y="-300" on-trigger="end" on-touch="end2" font-size="25" width="500">
       <end y="250" />
       <end2 y="-300"/>
-    
-    <agent img="reset_button.png"     x="420" y="12"  width="64"  height="64" on-touch="_GOTO_PAGE:1" />
       
     </agent>
+    
+    <agent img="reset_button.png"     x="420" y="12"  width="64"  height="64" on-touch="_GOTO_PAGE:1" />
   </page>
   
 </fable>

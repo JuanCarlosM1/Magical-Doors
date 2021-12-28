@@ -10,7 +10,7 @@
     
     <agent text="Duas crianças foram para a casa dos avós nas ferias. Eles estavam bastante animados, fazendo planos para suas brincadeiras" 
            x="20" y="420"  width="300" color="black" on-touch="text1" >
-      <text1 y='-300'/>
+      <text1 y="-300"/>
     </agent>
     
     <agent text="Lembre-se de tocar os balões de fala para que os dialogos sejam exibidos."
@@ -699,7 +699,7 @@
     <agent img="florest_ground_1.png" x="495" y="0" width="100" height="100"/>
     
     <agent text="Eles voltaram pra casa e contaram suas aventuras para os avós." 
-           x="25" y="240" font-size="25" width="500" color="black" on-touch='text2'>
+           x="25" y="240" font-size="25" width="500" color="black" on-touch="text2">
       <text2 text="Quando eles retornaram ao local da porta ela não estava mais lá." on-touch="text3"/>
       <text3 text="Mas eles não esqueçerão dessa aventura" x="90" width="400" on-touch="end"/>
       <end text="Fim!" x="230" y="250"/>
@@ -715,7 +715,7 @@
     <agent img="florest_ground_1.png" x="495" y="0" width="100" height="100"/>
     
     <agent text="Eles voltaram pra casa e nada de interesante tinha acontecido" 
-           x="40" y="240" font-size="25" width="500" on-touch='end'>
+           x="40" y="240" font-size="25" width="500" on-touch="end">
       <end y="-300"/>
       </agent>
       
@@ -811,23 +811,23 @@
   </page>
   
   <page background="bgdesert.png" soundtrack="desert.wav">
-    <agent img="girl_idle_right.png"   x='20'   y='95' width='52'    height='57'/>
+    <agent img="girl_idle_right.png"   x="20"   y="95" width="52"    height="57"/>
     <agent img="boy_idle_right.png"  x="0"  y="95" width="42"  height="70"/>
-    <agent img='Bush (1).png'      x='150' y='93' width='220'   height='160'/>
-    <agent img="Skeleton.png"      x='70'  y='92' width='60'    height='25' />
-    <agent img="Cactus (1).png"    x='370'   y='95' width='52'  height='57' />
+    <agent img="Bush (1).png"      x="150" y="93" width="220"   height="160"/>
+    <agent img="Skeleton.png"      x="70"  y="92" width="60"    height="25" />
+    <agent img="Cactus (1).png"    x="370"   y="95" width="52"  height="57" />
 
-    <agent img="desert_clouds.png" x='-30'  y='-50'  width='565' height='565'/>
-    <agent img="Sign_2.png"        x='435'   y='95' width='52'  height='57' on-touch="_NEXT_PAGE"/>
-    <agent img="desert_ground.png" x='0'  y='-5'  width='100' height='100' />
-    <agent img='desert_ground.png' x='99'  y='-5' width='100' height='100'/> 
-    <agent img='desert_ground.png' x='198' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='297' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='396' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='495' y='-5' width='100' height='100'/>
-    <agent img='chest.png' x='250' y='3' width='70' height='70'/>
-    <agent img="Bone (1).png"      x='100'   y='10'  width='70'  height='70'/>
-    <agent img="Bone (2).png"      x='400'   y='10'  width='70'  height='70'/>
+    <agent img="desert_clouds.png" x="-30"  y="-50"  width="565" height="565"/>
+    <agent img="Sign_2.png"        x="435"   y="95" width="52"  height="57" on-touch="_NEXT_PAGE"/>
+    <agent img="desert_ground.png" x="0"  y="-5"  width="100" height="100" />
+    <agent img="desert_ground.png" x="99"  y="-5" width="100" height="100"/> 
+    <agent img="desert_ground.png" x="198" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="297" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="396" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="495" y="-5" width="100" height="100"/>
+    <agent img="chest.png" x="250" y="3" width="70" height="70"/>
+    <agent img="Bone (1).png"      x="100"   y="10"  width="70"  height="70"/>
+    <agent img="Bone (2).png"      x="400"   y="10"  width="70"  height="70"/>
     
     <agent img="speech_bubble_right.png"            
            x="30" y="120" width="150" height="150"/>
@@ -851,30 +851,30 @@
     </page>
   
   <page background="bgdesert.png" soundtrack="desert.wav">
-    <agent img="desert_pyramids.png"    x='-30'   y='-43' width='560'  height='570' />
-    <agent img='treecave.png'     x='10' y='95' width='200' height='205'/>
-    <agent img="girl_idle_right.png"   x='20'   y='95' width='52'    height='57'/>
+    <agent img="desert_pyramids.png"    x="-30"   y="-43" width="560"  height="570" />
+    <agent img="treecave.png"     x="10" y="95" width="200" height="205"/>
+    <agent img="girl_idle_right.png"   x="20"   y="95" width="52"    height="57"/>
     <agent img="boy_idle_right.png"  x="0"  y="95" width="42"  height="70"/>
-    <agent img="Golem1.png"          x='310' y='61'  width='200'   height='200' on-touch="_NEXT_PAGE"/>  
-    <agent img="desert_ground.png" x='0'   y='-5' width='100' height='100' />
-    <agent img='desert_ground.png' x='99'  y='-5' width='100' height='100'/> 
-    <agent img='desert_ground.png' x='198' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='297' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='396' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='495' y='-5' width='100' height='100'/>
-    <agent img='dinosaurskeleton.png' x='320' y='-15' width='120' height='80'/>
-    <agent img='skull.png' x='110' y='15' width='50' height='50'/>
-    <agent img='desert_stone.png'   x='110' y='95' width='50' height='25'/>
-    <agent img='DeadBush.png'   x='200' y='95' width='50' height='25'/>
-    <agent img='Cactus (3).png'   x='270' y='95' width='70' height='75'/>
-    <agent img='DeadBush.png'   x='450' y='95' width='50' height='25'/>
-    <agent img="Bone (3).png"      x='0'   y='10'    width='70'  height='70'/>
-    <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
-    <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/> 
+    <agent img="Golem1.png"          x="310" y="61"  width="200"   height="200" on-touch="_NEXT_PAGE"/>  
+    <agent img="desert_ground.png" x="0"   y="-5" width="100" height="100" />
+    <agent img="desert_ground.png" x="99"  y="-5" width="100" height="100"/> 
+    <agent img="desert_ground.png" x="198" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="297" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="396" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="495" y="-5" width="100" height="100"/>
+    <agent img="dinosaurskeleton.png" x="320" y="-15" width="120" height="80"/>
+    <agent img="skull.png" x="110" y="15" width="50" height="50"/>
+    <agent img="desert_stone.png"   x="110" y="95" width="50" height="25"/>
+    <agent img="DeadBush.png"   x="200" y="95" width="50" height="25"/>
+    <agent img="Cactus (3).png"   x="270" y="95" width="70" height="75"/>
+    <agent img="DeadBush.png"   x="450" y="95" width="50" height="25"/>
+    <agent img="Bone (3).png"      x="0"   y="10"    width="70"  height="70"/>
+    <agent img="Bone (4).png"      x="40"   y="10"    width="70"  height="70"/>
+    <agent img="Bone (4).png"      x="420"   y="10"    width="70"  height="70"/> 
     
-    <agent img="Tetx_1.png"  x='0' y='410'      width='500'   height='50'/>
-    <agent img='yes.png'      x='100'  y='320.4'  width='110'   height='65' on-touch="_NEXT_PAGE"/>
-    <agent img='no.png'  x='300' y='320'    width='110'   height='65' on-touch="_GOTO_PAGE:23"/>
+    <agent img="Tetx_1.png"  x="0" y="410"      width="500"   height="50"/>
+    <agent img="yes.png"      x="100"  y="320.4"  width="110"   height="65" on-touch="_NEXT_PAGE"/>
+    <agent img="no.png"  x="300" y="320"    width="110"   height="65" on-touch="_GOTO_PAGE:23"/>
     
     <agent img="speech_bubble_right.png"            
            x="30" y="120" width="150" height="150"/>
@@ -892,14 +892,14 @@
   
   <page background="inside_tomb.jpg" soundtrack="desert.wav">
     
-    <agent img="girl_idle_right.png"     x='200'   y='120'  width='52'   height='57'/>
+    <agent img="girl_idle_right.png"     x="200"   y="120"  width="52"   height="57"/>
     <agent img="boy_idle_right.png"  x="180"  y="120" width="42"  height="70"/>
-    <agent img="golemtumba.png"          x='310' y='82'  width='200'   height='200'/>  
-    <agent img="Tetx_2.png"  x='10' y='400'  width='485'   height='75'/>
+    <agent img="golemtumba.png"          x="310" y="82"  width="200"   height="200"/>  
+    <agent img="Tetx_2.png"  x="10" y="400"  width="485"   height="75"/>
     
-    <agent img='Ra.png'      x='40'  y='320.4'  width='110'   height='65' on-touch="_GOTO_PAGE:22"/>
-    <agent img='Osiris.png'  x='200' y='320'    width='110'   height='65' on-touch="_GOTO_PAGE:21"/>
-    <agent img='Anubis.png'  x='350' y='320'    width='110'   height='65' on-touch="_GOTO_PAGE:21"/>
+    <agent img="Ra.png"      x="40"  y="320.4"  width="110"   height="65" on-touch="_GOTO_PAGE:22"/>
+    <agent img="Osiris.png"  x="200" y="320"    width="110"   height="65" on-touch="_GOTO_PAGE:21"/>
+    <agent img="Anubis.png"  x="350" y="320"    width="110"   height="65" on-touch="_GOTO_PAGE:21"/>
     
     <agent img="speech_bubble_left.png"            
            x="60" y="-320" width="150" height="150" on-trigger="fala1">
@@ -926,30 +926,30 @@
   
   <page background="bgdesert.png" soundtrack="desert.wav">
     
-    <agent img="desert_pyramids.png"    x='-30'   y='-43' width='560'  height='570' />
-    <agent img='treecave.png'     x='10' y='95' width='200' height='205'/>
-    <agent img="girl_idle_right.png"   x='20'   y='95' width='52'    height='57'/>
+    <agent img="desert_pyramids.png"    x="-30"   y="-43" width="560"  height="570" />
+    <agent img="treecave.png"     x="10" y="95" width="200" height="205"/>
+    <agent img="girl_idle_right.png"   x="20"   y="95" width="52"    height="57"/>
     <agent img="boy_idle_right.png"  x="0"  y="95" width="42"  height="70"/>
-    <agent img="Golem1.png"          x='310' y='61'  width='200'   height='200' on-touch="_GOTO_PAGE:20"/>  
-    <agent img="desert_ground.png" x='0'   y='-5' width='100' height='100' />
-    <agent img='desert_ground.png' x='99'  y='-5' width='100' height='100'/> 
-    <agent img='desert_ground.png' x='198' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='297' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='396' y='-5' width='100' height='100'/>
-    <agent img='desert_ground.png' x='495' y='-5' width='100' height='100'/>
-    <agent img='dinosaurskeleton.png' x='320' y='-15' width='120' height='80'/>
-    <agent img='skull.png' x='110' y='15' width='50' height='50'/>
-    <agent img='desert_stone.png'   x='110' y='95' width='50' height='25'/>
-    <agent img='DeadBush.png'   x='200' y='95' width='50' height='25'/>
-    <agent img='Cactus (3).png'   x='270' y='95' width='70' height='75'/>
-    <agent img='DeadBush.png'   x='450' y='95' width='50' height='25'/>
-    <agent img="Bone (3).png"      x='0'   y='10'    width='70'  height='70'/>
-    <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
-    <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/> 
+    <agent img="Golem1.png"          x="310" y="61"  width="200"   height="200" on-touch="_GOTO_PAGE:20"/>  
+    <agent img="desert_ground.png" x="0"   y="-5" width="100" height="100" />
+    <agent img="desert_ground.png" x="99"  y="-5" width="100" height="100"/> 
+    <agent img="desert_ground.png" x="198" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="297" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="396" y="-5" width="100" height="100"/>
+    <agent img="desert_ground.png" x="495" y="-5" width="100" height="100"/>
+    <agent img="dinosaurskeleton.png" x="320" y="-15" width="120" height="80"/>
+    <agent img="skull.png" x="110" y="15" width="50" height="50"/>
+    <agent img="desert_stone.png"   x="110" y="95" width="50" height="25"/>
+    <agent img="DeadBush.png"   x="200" y="95" width="50" height="25"/>
+    <agent img="Cactus (3).png"   x="270" y="95" width="70" height="75"/>
+    <agent img="DeadBush.png"   x="450" y="95" width="50" height="25"/>
+    <agent img="Bone (3).png"      x="0"   y="10"    width="70"  height="70"/>
+    <agent img="Bone (4).png"      x="40"   y="10"    width="70"  height="70"/>
+    <agent img="Bone (4).png"      x="420"   y="10"    width="70"  height="70"/> 
     
-    <agent img="Tetx_3.png"  x='0' y='400'      width='500'   height='71'/>
-    <agent img='yes.png'      x='100'  y='320.4'  width='110'   height='65' on-touch="_PREV_PAGE"/>
-    <agent img='no.png'  x='300' y='320'    width='110'   height='65' on-touch="_GOTO_PAGE:23"/>
+    <agent img="Tetx_3.png"  x="0" y="400"      width="500"   height="71"/>
+    <agent img="yes.png"      x="100"  y="320.4"  width="110"   height="65" on-touch="_PREV_PAGE"/>
+    <agent img="no.png"  x="300" y="320"    width="110"   height="65" on-touch="_GOTO_PAGE:23"/>
     
     <agent img="speech_bubble_right.png"            
            x="30" y="120" width="150" height="150"/>
@@ -965,14 +965,14 @@
   </page>
   
   <page background="bgdesert (2).png" soundtrack="desert.wav">
-    <agent img="desert_clouds.png" x='-30'  y='0'  width='565' height='565'/>
-    <agent img='Cactus (3).png'     x='110' y='95' width='70' height='75'/>
-    <agent img='Cactus (1).png'     x='25'  y='95'  width='90' height='95'/>
-    <agent img="girl_idle_right.png"   x='20'   y='95' width='52'    height='57'/>
+    <agent img="desert_clouds.png" x="-30"  y="0"  width="565" height="565"/>
+    <agent img="Cactus (3).png"     x="110" y="95" width="70" height="75"/>
+    <agent img="Cactus (1).png"     x="25"  y="95"  width="90" height="95"/>
+    <agent img="girl_idle_right.png"   x="20"   y="95" width="52"    height="57"/>
     <agent img="boy_idle_right.png"  x="0"  y="95" width="42"  height="70"/>
     
-    <agent img='desert_ground_2.png' x='400' y='193' width='100' height='100'/>
-    <agent img='desert_ground_4.png' x='400' y='94' width='100' height='100'/>
+    <agent img="desert_ground_2.png" x="400" y="193" width="100" height="100"/>
+    <agent img="desert_ground_4.png" x="400" y="94" width="100" height="100"/>
     
     
     <agent img="door1.png" x="425" y="94" width="70"  height="116" on-trigger="open">
@@ -980,28 +980,28 @@
       <unlocked img="door3.png" on-touch="_GOTO_PAGE:11"/>
     </agent>
     
-    <agent img="bridge_up_1.png" x='395'  y='95'   width="25"  height="90" on-trigger="open">
-      <open img="bridge_down_1.png"  x='297'  y='69'   width="100"  height="25" />
+    <agent img="bridge_up_1.png" x="395"  y="95"   width="25"  height="90" on-trigger="open">
+      <open img="bridge_down_1.png"  x="297"  y="69"   width="100"  height="25" />
      </agent>
    
     
-    <agent img="bridge_up_2.png" x='175'  y='95'   width="25"  height="90" on-trigger="open">
-      <open img="bridge_down_2.png"  x='197.7'  y='69'   width="100"  height="25" on-trigger="open" />
+    <agent img="bridge_up_2.png" x="175"  y="95"   width="25"  height="90" on-trigger="open">
+      <open img="bridge_down_2.png"  x="197.7"  y="69"   width="100"  height="25" on-trigger="open" />
     </agent>  
     
-    <agent img="desert_ground.png" x='0'   y='-5' width='100' height='100' />
-    <agent img='desert_ground_3.png' x='99'  y='-5' width='100' height='100'/>    
-    <agent img='Tile_27.png' x='198' y='31' width='100' height='100'/>
-    <agent img='Tile_27.png' x='297' y='31' width='100' height='100'/>
-    <agent img='desert_ground_2.png' x='396' y='-5' width='100' height='100'/>
-    <agent img='desert_ground_1.png' x='495' y='-5' width='100' height='100'/>
-    <agent img='Tile_28.png' x='198' y='-70' width='100' height='100'/>
-    <agent img='Tile_28.png' x='297' y='-70' width='100' height='100'/>
-    <agent img="Skeletoncave.png"  x="430"   y="292"  width="55" height='32'/>
-    <agent img="Bone (1).png"      x="430"   y="210"  width="55" height='58'/>
-    <agent img="Bone (3).png"      x='0'   y='10'    width='70'  height='70'/>
-    <agent img="Bone (4).png"      x='40'   y='10'    width='70'  height='70'/>
-    <agent img="Bone (4).png"      x='420'   y='10'    width='70'  height='70'/>
+    <agent img="desert_ground.png" x="0"   y="-5" width="100" height="100" />
+    <agent img="desert_ground_3.png" x="99"  y="-5" width="100" height="100"/>    
+    <agent img="Tile_27.png" x="198" y="31" width="100" height="100"/>
+    <agent img="Tile_27.png" x="297" y="31" width="100" height="100"/>
+    <agent img="desert_ground_2.png" x="396" y="-5" width="100" height="100"/>
+    <agent img="desert_ground_1.png" x="495" y="-5" width="100" height="100"/>
+    <agent img="Tile_28.png" x="198" y="-70" width="100" height="100"/>
+    <agent img="Tile_28.png" x="297" y="-70" width="100" height="100"/>
+    <agent img="Skeletoncave.png"  x="430"   y="292"  width="55" height="32"/>
+    <agent img="Bone (1).png"      x="430"   y="210"  width="55" height="58"/>
+    <agent img="Bone (3).png"      x="0"   y="10"    width="70"  height="70"/>
+    <agent img="Bone (4).png"      x="40"   y="10"    width="70"  height="70"/>
+    <agent img="Bone (4).png"      x="420"   y="10"    width="70"  height="70"/>
     
     <agent img="speech_bubble_right.png"            
            x="30" y="120" width="150" height="150"/>
@@ -1032,7 +1032,7 @@
     <agent img="florest_ground_1.png" x="495" y="0" width="100" height="100"/>
     
     <agent text="Eles ficaram presos no deserto" 
-           x="50" y="250" font-size="25" width="500" on-touch='end'>
+           x="50" y="250" font-size="25" width="500" on-touch="end">
       <end y="-300"/>
       </agent>
       

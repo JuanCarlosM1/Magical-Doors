@@ -703,7 +703,10 @@
       <text2 text="Quando eles retornaram ao local da porta ela não estava mais lá." on-touch="text3"/>
       <text3 text="Mas eles não esqueçerão dessa aventura" x="90" width="400" on-touch="end"/>
       <end text="Fim!" x="230" y="250"/>
+      
     </agent>
+    
+    <agent img="reset.png"     x="420" y="12"  width="64"  height="64" on-touch="_NEXT_PAGE" />
   </page>
   
   <page background="florest.png" soundtrack="end_theme.wav">

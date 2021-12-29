@@ -1067,20 +1067,25 @@
   </page>
   
   <page background="snow.png" soundtrack="end_theme_2.wav">
-    <agent img="florest_ground_1.png" x="0"   y="0" width="100" height="100"/> 
-    <agent img="florest_ground_1.png" x="99"  y="0" width="100" height="100"/> 
-    <agent img="florest_ground_1.png" x="198" y="0" width="100" height="100"/>
-    <agent img="florest_ground_1.png" x="297" y="0" width="100" height="100"/>
-    <agent img="florest_ground_1.png" x="396" y="0" width="100" height="100"/>
-    <agent img="florest_ground_1.png" x="495" y="0" width="100" height="100"/>
+    <agent img="snow_ground_1.png" x="0"   y="0" width="100" height="100"/> 
+    <agent img="snow_ground_1.png" x="99"  y="0" width="100" height="100"/> 
+    <agent img="snow_ground_1.png" x="198" y="0" width="100" height="100"/>
+    <agent img="snow_ground_1.png" x="297" y="0" width="100" height="100"/>
+    <agent img="snow_ground_1.png" x="396" y="0" width="100" height="100"/>
+    <agent img="snow_ground_1.png" x="495" y="0" width="100" height="100"/> 
+    
+    <agent img="snow_trees.png"     x="-80" y="97" width="364" height="280"/>
+    <agent img="snow_tree.png"      x="400" y="97" width="228" height="280"/> 
+    
+    <agent img="igloo.png"           x="20" y="99" width="256" height="100"/> 
     
     <agent text="Eles ficaram vagando na neve." 
-           x="50" y="250" font-size="25" width="500" on-touch="end">
+           x="50" y="250" font-size="25" width="500" color="white" on-touch="end">
       <end y="-300"/>
       </agent>
       
     <agent text="Fim!" 
-           x="230" y="-300" on-trigger="end" on-touch="end2" font-size="25" width="500">
+           x="230" y="-300" on-trigger="end" color="white" on-touch="end2" font-size="25" width="500">
       <end y="250" />
       <end2 y="-300"/>
       

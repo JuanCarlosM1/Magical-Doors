@@ -661,7 +661,8 @@
     <agent img="snow_ground_3.png" x="297" y="99"  width="100" height="100"/>
     <agent img="snow_ground_4.png" x="396" y="99"  width="100" height="100"/>
     <agent img="snow_ground_4.png" x="495" y="99"  width="100" height="100"/>
-  
+    
+    <agent img="portal_b.png" x="400" y="310" width="36" height="50"/>
     <agent img="snow_tree.png" x="-100" y="97" width="228" height="280"/>
     <agent img="snow_stone.png" x="400" y="298" width="124" height="78"/>    
     <agent img="crystal.png" x="370" y="298" width="49" height="39"/>   
@@ -681,7 +682,6 @@
     
     <agent text="Vocês tem que encontrar a pá para abrir o caminho" 
              x="290" y="220" width="130" color="black" />
-    <agent img="portal_b.png" x="315" y="110" width="36" height="50"/>
     
     <agent img="snowman.png" 
            x="250" y="98" width="96" height="105"/>

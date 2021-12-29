@@ -1020,7 +1020,7 @@
            x="38" y="80"  width="150" height="150" on-touch="fala1" color="white">
       <fala1 y="-300"/>
     </agent>
-    <agent text="Acho que se nós pucharmos a alavanca..." 
+    <agent text="Acho que se nós puxarmos a alavanca..." 
            x="40" y="-300" width="140" height="150" on-trigger="fala1">
       <fala1 x="48" y="88" on-touch="fala2"/>
       <fala2 text="... chegaremos no outro lado." x="45" y="80" width="130"/>
@@ -1030,7 +1030,7 @@
       <open img="lever_1.png" x="95" y="90" width="55" height="40"/>
       </agent>
     
-      <agent text="Tente decer a ponte e abrir a porta." 
+      <agent text="Tente descer a ponte e abrir a porta." 
            x="20" y="440" width="240" color="black" on-trigger="fala1"/>
   </page>
   

@@ -681,6 +681,7 @@
     
     <agent text="Vocês tem que encontrar a pá para abrir o caminho" 
              x="290" y="220" width="130" color="black" />
+    <agent img="portal_b.png" x="315" y="110" width="36" height="50"/>
     
     <agent img="snowman.png" 
            x="250" y="98" width="96" height="105"/>
@@ -693,8 +694,6 @@
            x="20" y="465" width="270" color="white"/> 
         
     <agent img="Sign_3.png" x="18"  y="99" width="64" height="64" on-touch="_PREV_PAGE" /> 
-    
-    <agent img="portal_b.png" x="200" y="15" width="36" height="50"/>
   
   </page>
   
